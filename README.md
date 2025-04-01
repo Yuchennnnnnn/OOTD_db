@@ -13,8 +13,6 @@ The **OOTD Analyzer** is a Python-based project that analyzes outfit images (OOT
 - **Text-Based Image Search:**  
   Allows users to input a text prompt (e.g., "Show me an OOTD featuring green sneakers") to retrieve the most relevant image from the database.
 
-- **Match & Explanation (Advanced):**  
-  Accepts a user-uploaded photo (e.g., a T-shirt), searches the database for a relevant match, and uses AI to analyze and explain the match based on aspects like color, style, and pattern.
 
 ## Prerequisites
 
@@ -27,8 +25,8 @@ The **OOTD Analyzer** is a Python-based project that analyzes outfit images (OOT
 
 ## Setup Instructions
 
-1. **Clone the Repository:**
-   Clone or download the project files to your local machine.
+1. **Download the Repository:**
+   Download the project files to your local machine.
 
 2. **Environment Variables (.env):**  
    The project uses environment variables to store configuration settings. A sample `.env` file is automatically created when you run `setup_mongodb.py` if one does not exist. Edit the `.env` file to set your values:
@@ -75,19 +73,8 @@ python text_search.py
 - **setup_mongodb.py**
 - **ootd_analyzer.py**
 - **text_search.py**
-- **image_match_explainer.py**
 - **ootd_data.csv**
 - **ootd_processing.log**
-
-## Troubleshooting
-
-- **MongoDB Connection Issues**
-- **API Errors**
-- **Image Folder Issues**
-
-## License
-
-Include your project license here (if applicable).
 
 ## Acknowledgements
 
