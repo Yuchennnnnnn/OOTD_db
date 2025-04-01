@@ -66,6 +66,9 @@ To search for an outfit using a text prompt:
 python text_search.py
 ```
 
+## 🎥 Demo
+
+You can [download and watch the demo](./demo.mov) to see how the OOTD Analyzer works.
 
 
 ## Project Files Overview
