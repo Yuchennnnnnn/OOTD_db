@@ -1,0 +1,5 @@
+# Ignore system and environment files
+.env
+.DS_Store
+__pycache__/
+.venv/
