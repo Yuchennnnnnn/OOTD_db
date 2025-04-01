@@ -14,6 +14,35 @@ The **OOTD Analyzer** is a Python-based project that analyzes outfit images (OOT
   Allows users to input a text prompt (e.g., "Show me an OOTD featuring green sneakers") to retrieve the most relevant image from the database.
 
 
+## 🧠 Design Decisions & Architecture
+
+### Overall Architecture
+
+This project follows a modular microservice-like structure for better scalability and maintainability. The key components include:
+
+- **Image Analysis Service**: Extracts clothing type, color, and patterns using OpenRouter's AI API.
+- **MongoDB Storage**: Stores structured outfit data for fast querying.
+- **Text-Based Search**: Allows users to retrieve outfits by natural language queries.
+- **Image-Based Matching**: Users upload an image, and the system finds similar styles and explains why.
+
+### Data Flow Diagram
+
+```text
+    [User] ── uploads image ──▶ [Analyzer (AI)] ──▶ [MongoDB]
+      ▲                                      │
+      │                                      ▼
+  text prompt ◀──── search & match ────── [Search Engine]
+```
+
+### Reasoning Behind Design
+
+- **OpenRouter API** was chosen for flexible, fast, and affordable AI access.
+- **MongoDB** provides flexible schema-less storage ideal for varied clothing attributes and fast full-text search.
+- **Batch Processing** was used for image analysis to prevent timeouts and optimize API usage.
+- **.env and modular config files** keep secrets secure and make the system portable across environments.
+- **Matplotlib for previewing images** lets users easily verify visual results during development.
+
+
 ## Prerequisites
 
 - **Python 3.10+**
