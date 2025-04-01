@@ -23,15 +23,14 @@ This project follows a modular microservice-like structure for better scalabilit
 - **Image Analysis Service**: Extracts clothing type, color, and patterns using OpenRouter's AI API.
 - **MongoDB Storage**: Stores structured outfit data for fast querying.
 - **Text-Based Search**: Allows users to retrieve outfits by natural language queries.
-- **Image-Based Matching**: Users upload an image, and the system finds similar styles and explains why.
 
 ### Data Flow Diagram
 
 ```text
-    [User] ── uploads image ──▶ [Analyzer (AI)] ──▶ [MongoDB]
+    [User]  ──▶ [Analyzer (AI)] ──▶ [MongoDB]
       ▲                                      │
       │                                      ▼
-  text prompt ◀──── search & match ────── [Search Engine]
+  text prompt ◀──── search ────── [Search Engine]
 ```
 
 ### Reasoning Behind Design
