@@ -1,0 +1,351 @@
+2025-03-31 17:05:56,150 - INFO - MongoDB indexes created successfully
+2025-03-31 17:05:56,150 - WARNING - Image folder '/images' does not exist. Creating it...
+2025-03-31 17:05:56,150 - ERROR - Failed to create folder: [Errno 30] Read-only file system: '/images'
+2025-03-31 17:07:15,658 - INFO - MongoDB indexes created successfully
+2025-03-31 17:07:15,659 - INFO - Found 63 images to process
+2025-03-31 17:07:15,659 - INFO - Processing batch 1 (5 images)...
+2025-03-31 17:07:15,659 - INFO - Processing 17902b101e6b4b65425bedab59d52f0b.jpg...
+2025-03-31 17:07:16,892 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-31 17:07:16,895 - WARNING - Attempt 1 failed: Error code: 404 - {'error': {'message': 'No endpoints found for openai/gpt-4-vision-preview.', 'code': 404}, 'user_id': 'user_2v4BXNfwMNLqgmDOb8MoqS6uos6'}
+2025-03-31 17:07:18,509 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-31 17:07:18,512 - WARNING - Attempt 2 failed: Error code: 404 - {'error': {'message': 'No endpoints found for openai/gpt-4-vision-preview.', 'code': 404}, 'user_id': 'user_2v4BXNfwMNLqgmDOb8MoqS6uos6'}
+2025-03-31 17:07:21,020 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-31 17:07:21,023 - WARNING - Attempt 3 failed: Error code: 404 - {'error': {'message': 'No endpoints found for openai/gpt-4-vision-preview.', 'code': 404}, 'user_id': 'user_2v4BXNfwMNLqgmDOb8MoqS6uos6'}
+2025-03-31 17:07:21,023 - ERROR - All retries failed for ./images/17902b101e6b4b65425bedab59d52f0b.jpg
+2025-03-31 17:07:21,023 - WARNING - No response for 17902b101e6b4b65425bedab59d52f0b.jpg, skipping
+2025-03-31 17:07:21,023 - INFO - Processing 3e00e993678a39bb81ff9b510d229e28.jpg...
+2025-03-31 17:07:21,246 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-31 17:07:21,249 - WARNING - Attempt 1 failed: Error code: 404 - {'error': {'message': 'No endpoints found for openai/gpt-4-vision-preview.', 'code': 404}, 'user_id': 'user_2v4BXNfwMNLqgmDOb8MoqS6uos6'}
+2025-03-31 17:07:22,580 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-31 17:07:22,582 - WARNING - Attempt 2 failed: Error code: 404 - {'error': {'message': 'No endpoints found for openai/gpt-4-vision-preview.', 'code': 404}, 'user_id': 'user_2v4BXNfwMNLqgmDOb8MoqS6uos6'}
+2025-03-31 17:07:24,858 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-31 17:07:24,860 - WARNING - Attempt 3 failed: Error code: 404 - {'error': {'message': 'No endpoints found for openai/gpt-4-vision-preview.', 'code': 404}, 'user_id': 'user_2v4BXNfwMNLqgmDOb8MoqS6uos6'}
+2025-03-31 17:07:24,861 - ERROR - All retries failed for ./images/3e00e993678a39bb81ff9b510d229e28.jpg
+2025-03-31 17:07:24,861 - WARNING - No response for 3e00e993678a39bb81ff9b510d229e28.jpg, skipping
+2025-03-31 17:07:24,861 - INFO - Processing 5fa1b83d80df1a4870ef27a7bcc8567b.jpg...
+2025-03-31 17:07:25,039 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-31 17:07:25,042 - WARNING - Attempt 1 failed: Error code: 404 - {'error': {'message': 'No endpoints found for openai/gpt-4-vision-preview.', 'code': 404}, 'user_id': 'user_2v4BXNfwMNLqgmDOb8MoqS6uos6'}
+2025-03-31 17:07:26,257 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-31 17:07:26,261 - WARNING - Attempt 2 failed: Error code: 404 - {'error': {'message': 'No endpoints found for openai/gpt-4-vision-preview.', 'code': 404}, 'user_id': 'user_2v4BXNfwMNLqgmDOb8MoqS6uos6'}
+2025-03-31 17:07:28,741 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-31 17:07:28,744 - WARNING - Attempt 3 failed: Error code: 404 - {'error': {'message': 'No endpoints found for openai/gpt-4-vision-preview.', 'code': 404}, 'user_id': 'user_2v4BXNfwMNLqgmDOb8MoqS6uos6'}
+2025-03-31 17:07:28,744 - ERROR - All retries failed for ./images/5fa1b83d80df1a4870ef27a7bcc8567b.jpg
+2025-03-31 17:07:28,745 - WARNING - No response for 5fa1b83d80df1a4870ef27a7bcc8567b.jpg, skipping
+2025-03-31 17:07:28,745 - INFO - Processing 551ab52234a71b830fe5e5b71c50428a.jpg...
+2025-03-31 17:07:28,995 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-31 17:07:28,997 - WARNING - Attempt 1 failed: Error code: 404 - {'error': {'message': 'No endpoints found for openai/gpt-4-vision-preview.', 'code': 404}, 'user_id': 'user_2v4BXNfwMNLqgmDOb8MoqS6uos6'}
+2025-03-31 17:07:30,267 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-31 17:07:30,270 - WARNING - Attempt 2 failed: Error code: 404 - {'error': {'message': 'No endpoints found for openai/gpt-4-vision-preview.', 'code': 404}, 'user_id': 'user_2v4BXNfwMNLqgmDOb8MoqS6uos6'}
+2025-03-31 17:07:32,724 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-31 17:07:32,726 - WARNING - Attempt 3 failed: Error code: 404 - {'error': {'message': 'No endpoints found for openai/gpt-4-vision-preview.', 'code': 404}, 'user_id': 'user_2v4BXNfwMNLqgmDOb8MoqS6uos6'}
+2025-03-31 17:07:32,726 - ERROR - All retries failed for ./images/551ab52234a71b830fe5e5b71c50428a.jpg
+2025-03-31 17:07:32,726 - WARNING - No response for 551ab52234a71b830fe5e5b71c50428a.jpg, skipping
+2025-03-31 17:07:32,726 - INFO - Processing aaad4eacb72fa6ad6278ab6dae15e35c.jpg...
+2025-03-31 17:07:32,925 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-31 17:07:32,928 - WARNING - Attempt 1 failed: Error code: 404 - {'error': {'message': 'No endpoints found for openai/gpt-4-vision-preview.', 'code': 404}, 'user_id': 'user_2v4BXNfwMNLqgmDOb8MoqS6uos6'}
+2025-03-31 17:09:01,997 - INFO - MongoDB indexes created successfully
+2025-03-31 17:09:01,998 - INFO - Found 63 images to process
+2025-03-31 17:09:01,998 - INFO - Processing batch 1 (5 images)...
+2025-03-31 17:09:01,998 - INFO - Processing 17902b101e6b4b65425bedab59d52f0b.jpg...
+2025-03-31 17:09:02,583 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-31 17:09:02,587 - WARNING - Attempt 1 failed: Error code: 404 - {'error': {'message': 'No endpoints found for openai/gpt-4-vision-preview.', 'code': 404}, 'user_id': 'user_2v4BXNfwMNLqgmDOb8MoqS6uos6'}
+2025-03-31 17:09:03,950 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-31 17:09:03,953 - WARNING - Attempt 2 failed: Error code: 404 - {'error': {'message': 'No endpoints found for openai/gpt-4-vision-preview.', 'code': 404}, 'user_id': 'user_2v4BXNfwMNLqgmDOb8MoqS6uos6'}
+2025-03-31 17:09:06,393 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-31 17:09:06,396 - WARNING - Attempt 3 failed: Error code: 404 - {'error': {'message': 'No endpoints found for openai/gpt-4-vision-preview.', 'code': 404}, 'user_id': 'user_2v4BXNfwMNLqgmDOb8MoqS6uos6'}
+2025-03-31 17:09:06,397 - ERROR - All retries failed for ./images/17902b101e6b4b65425bedab59d52f0b.jpg
+2025-03-31 17:09:06,397 - WARNING - No response for 17902b101e6b4b65425bedab59d52f0b.jpg, skipping
+2025-03-31 17:09:06,397 - INFO - Processing 3e00e993678a39bb81ff9b510d229e28.jpg...
+2025-03-31 17:09:06,597 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 404 Not Found"
+2025-03-31 17:09:06,599 - WARNING - Attempt 1 failed: Error code: 404 - {'error': {'message': 'No endpoints found for openai/gpt-4-vision-preview.', 'code': 404}, 'user_id': 'user_2v4BXNfwMNLqgmDOb8MoqS6uos6'}
+2025-03-31 17:17:35,619 - INFO - MongoDB indexes created successfully
+2025-03-31 17:17:35,619 - INFO - Found 63 images to process
+2025-03-31 17:17:35,620 - INFO - Processing batch 1 (5 images)...
+2025-03-31 17:17:35,620 - INFO - Processing 17902b101e6b4b65425bedab59d52f0b.jpg...
+2025-03-31 17:17:36,330 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:17:41,865 - INFO - Found 3 clothing items in 17902b101e6b4b65425bedab59d52f0b.jpg
+2025-03-31 17:17:42,370 - INFO - Processing 3e00e993678a39bb81ff9b510d229e28.jpg...
+2025-03-31 17:17:42,547 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:17:48,771 - INFO - Found 5 clothing items in 3e00e993678a39bb81ff9b510d229e28.jpg
+2025-03-31 17:17:49,274 - INFO - Processing 5fa1b83d80df1a4870ef27a7bcc8567b.jpg...
+2025-03-31 17:17:49,528 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:17:52,929 - INFO - Found 1 clothing items in 5fa1b83d80df1a4870ef27a7bcc8567b.jpg
+2025-03-31 17:17:53,431 - INFO - Processing 551ab52234a71b830fe5e5b71c50428a.jpg...
+2025-03-31 17:17:53,607 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:17:58,978 - INFO - Found 5 clothing items in 551ab52234a71b830fe5e5b71c50428a.jpg
+2025-03-31 17:17:59,482 - INFO - Processing aaad4eacb72fa6ad6278ab6dae15e35c.jpg...
+2025-03-31 17:17:59,719 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:18:02,340 - INFO - Found 2 clothing items in aaad4eacb72fa6ad6278ab6dae15e35c.jpg
+2025-03-31 17:18:02,849 - INFO - Inserted 16 items into MongoDB
+2025-03-31 17:18:02,852 - INFO - Data saved to ootd_data.csv
+2025-03-31 17:18:02,852 - INFO - Pausing between batches...
+2025-03-31 17:18:04,853 - INFO - Processing batch 2 (5 images)...
+2025-03-31 17:18:04,854 - INFO - Processing 9b35b6ade22854e4b85460a4dc280e5d.jpg...
+2025-03-31 17:18:05,148 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:18:14,882 - INFO - Found 5 clothing items in 9b35b6ade22854e4b85460a4dc280e5d.jpg
+2025-03-31 17:18:15,387 - INFO - Processing d48774278b794703e974bedaa1162ac3.jpg...
+2025-03-31 17:18:15,677 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:18:17,552 - INFO - Found 3 clothing items in d48774278b794703e974bedaa1162ac3.jpg
+2025-03-31 17:18:18,057 - INFO - Processing 3132dbad8bfe0034afac39d9f3a666e3.jpg...
+2025-03-31 17:18:18,335 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:18:20,751 - INFO - Found 4 clothing items in 3132dbad8bfe0034afac39d9f3a666e3.jpg
+2025-03-31 17:18:21,256 - INFO - Processing e021e634322d747f571818f45f82abcd.jpg...
+2025-03-31 17:18:21,476 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:18:30,927 - INFO - Found 5 clothing items in e021e634322d747f571818f45f82abcd.jpg
+2025-03-31 17:18:31,433 - INFO - Processing 45844d4a2e8b7ba7afbd0c30ba2cdf35.jpg...
+2025-03-31 17:18:31,846 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:18:36,291 - INFO - Found 5 clothing items in 45844d4a2e8b7ba7afbd0c30ba2cdf35.jpg
+2025-03-31 17:18:36,802 - INFO - Inserted 22 items into MongoDB
+2025-03-31 17:18:36,804 - INFO - Data saved to ootd_data.csv
+2025-03-31 17:18:36,804 - INFO - Pausing between batches...
+2025-03-31 17:18:38,808 - INFO - Processing batch 3 (5 images)...
+2025-03-31 17:18:38,810 - INFO - Processing 3832f6cea236e68089ef9b4bd83a558c.jpg...
+2025-03-31 17:18:39,311 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:18:42,722 - INFO - Found 3 clothing items in 3832f6cea236e68089ef9b4bd83a558c.jpg
+2025-03-31 17:18:43,227 - INFO - Processing 8d2a62746b5c06a2df17e6b43aa56e26.jpg...
+2025-03-31 17:18:43,634 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:18:48,902 - INFO - Found 6 clothing items in 8d2a62746b5c06a2df17e6b43aa56e26.jpg
+2025-03-31 17:18:49,409 - INFO - Processing ba571dc52ed5153eae4f7c21af2c164a.jpg...
+2025-03-31 17:18:49,606 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:18:54,280 - INFO - Found 3 clothing items in ba571dc52ed5153eae4f7c21af2c164a.jpg
+2025-03-31 17:18:54,784 - INFO - Processing cda16f68a882fe9e6ac9c2976be3edbb.jpg...
+2025-03-31 17:18:55,043 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:18:57,329 - INFO - Found 3 clothing items in cda16f68a882fe9e6ac9c2976be3edbb.jpg
+2025-03-31 17:18:57,832 - INFO - Processing edff1436dbeffc06b97d80d2161453a3.jpg...
+2025-03-31 17:18:58,015 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:19:05,727 - INFO - Found 5 clothing items in edff1436dbeffc06b97d80d2161453a3.jpg
+2025-03-31 17:19:06,234 - INFO - Inserted 20 items into MongoDB
+2025-03-31 17:19:06,238 - INFO - Data saved to ootd_data.csv
+2025-03-31 17:19:06,238 - INFO - Pausing between batches...
+2025-03-31 17:19:08,239 - INFO - Processing batch 4 (5 images)...
+2025-03-31 17:19:08,240 - INFO - Processing 70d52335a96aab4d35f65d7084891284.jpg...
+2025-03-31 17:19:08,578 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:19:15,272 - INFO - Found 5 clothing items in 70d52335a96aab4d35f65d7084891284.jpg
+2025-03-31 17:19:15,774 - INFO - Processing e9367bf339ca6d658c9d8723e000b217.jpg...
+2025-03-31 17:19:16,348 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:19:24,374 - INFO - Found 4 clothing items in e9367bf339ca6d658c9d8723e000b217.jpg
+2025-03-31 17:19:24,876 - INFO - Processing de6a3e527af13368aacd7ce5d1d0fafb.jpg...
+2025-03-31 17:19:25,590 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:19:30,142 - INFO - Found 1 clothing items in de6a3e527af13368aacd7ce5d1d0fafb.jpg
+2025-03-31 17:19:30,647 - INFO - Processing 91f43209192f0323bed2134e3ec1f2ca.jpg...
+2025-03-31 17:19:30,856 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:19:34,194 - INFO - Found 5 clothing items in 91f43209192f0323bed2134e3ec1f2ca.jpg
+2025-03-31 17:19:34,700 - INFO - Processing d5199bac9a0dc0da8477c99daedfc2ce.jpg...
+2025-03-31 17:19:34,847 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:19:37,264 - INFO - Found 5 clothing items in d5199bac9a0dc0da8477c99daedfc2ce.jpg
+2025-03-31 17:19:37,774 - INFO - Inserted 20 items into MongoDB
+2025-03-31 17:19:37,777 - INFO - Data saved to ootd_data.csv
+2025-03-31 17:19:37,777 - INFO - Pausing between batches...
+2025-03-31 17:19:39,783 - INFO - Processing batch 5 (5 images)...
+2025-03-31 17:19:39,783 - INFO - Processing 7ffa79f2cfe014f2b155126a0927c0ee.jpg...
+2025-03-31 17:19:40,015 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:19:46,756 - INFO - Found 5 clothing items in 7ffa79f2cfe014f2b155126a0927c0ee.jpg
+2025-03-31 17:19:47,258 - INFO - Processing f399a81128b97728efb70c6613ec0e61.jpg...
+2025-03-31 17:19:47,435 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:19:49,862 - INFO - Found 3 clothing items in f399a81128b97728efb70c6613ec0e61.jpg
+2025-03-31 17:19:50,364 - INFO - Processing 53582f9a90d33f15166b27d67eaf8485.jpg...
+2025-03-31 17:19:50,531 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:19:54,468 - INFO - Found 0 clothing items in 53582f9a90d33f15166b27d67eaf8485.jpg
+2025-03-31 17:19:54,971 - INFO - Processing ce71f2564880ab397c69bab7a1f56842.jpg...
+2025-03-31 17:19:55,256 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:20:09,428 - INFO - Found 4 clothing items in ce71f2564880ab397c69bab7a1f56842.jpg
+2025-03-31 17:20:09,935 - INFO - Processing 79e2dc3f88a2156123f988b4557a5fb2.jpg...
+2025-03-31 17:20:10,526 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:20:13,553 - INFO - Found 4 clothing items in 79e2dc3f88a2156123f988b4557a5fb2.jpg
+2025-03-31 17:20:14,059 - INFO - Inserted 16 items into MongoDB
+2025-03-31 17:20:14,063 - INFO - Data saved to ootd_data.csv
+2025-03-31 17:20:14,063 - INFO - Pausing between batches...
+2025-03-31 17:20:16,066 - INFO - Processing batch 6 (5 images)...
+2025-03-31 17:20:16,071 - INFO - Processing d583e5323a8b7ad7d1fb7c16cf266e21.jpg...
+2025-03-31 17:20:16,336 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:20:21,674 - INFO - Found 3 clothing items in d583e5323a8b7ad7d1fb7c16cf266e21.jpg
+2025-03-31 17:20:22,179 - INFO - Processing 0423a5ce66d695573c8f5c8c75304f67.jpg...
+2025-03-31 17:20:22,404 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:20:38,021 - INFO - Found 1 clothing items in 0423a5ce66d695573c8f5c8c75304f67.jpg
+2025-03-31 17:20:38,524 - INFO - Processing c6505596bb4eb40cbc22d747ff2a654e.jpg...
+2025-03-31 17:20:38,762 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:20:44,775 - INFO - Found 4 clothing items in c6505596bb4eb40cbc22d747ff2a654e.jpg
+2025-03-31 17:20:45,279 - INFO - Processing be01307a0f451d799d85f76682387509.jpg...
+2025-03-31 17:20:45,421 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:20:52,196 - INFO - Found 4 clothing items in be01307a0f451d799d85f76682387509.jpg
+2025-03-31 17:20:52,701 - INFO - Processing 66ad0cd4444cabf0ecbc3225bb7f14a8.jpg...
+2025-03-31 17:20:52,937 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:21:03,646 - INFO - Found 2 clothing items in 66ad0cd4444cabf0ecbc3225bb7f14a8.jpg
+2025-03-31 17:21:04,156 - INFO - Inserted 14 items into MongoDB
+2025-03-31 17:21:04,162 - INFO - Data saved to ootd_data.csv
+2025-03-31 17:21:04,163 - INFO - Pausing between batches...
+2025-03-31 17:21:06,178 - INFO - Processing batch 7 (5 images)...
+2025-03-31 17:21:06,179 - INFO - Processing ab522de9d180385b5a523fba6b53ea36.jpg...
+2025-03-31 17:21:06,421 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:21:24,613 - INFO - Found 2 clothing items in ab522de9d180385b5a523fba6b53ea36.jpg
+2025-03-31 17:21:25,124 - INFO - Processing 85aeb7443a818496f8e73f7c6398c766.jpg...
+2025-03-31 17:21:25,341 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:21:29,087 - INFO - Found 2 clothing items in 85aeb7443a818496f8e73f7c6398c766.jpg
+2025-03-31 17:21:29,589 - INFO - Processing a08231c17f817389ae5e87c1fd484527.jpg...
+2025-03-31 17:21:29,839 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:21:44,521 - INFO - Found 6 clothing items in a08231c17f817389ae5e87c1fd484527.jpg
+2025-03-31 17:21:45,030 - INFO - Processing c23297a4b5eed754ccaf876fd5421aa0.jpg...
+2025-03-31 17:21:45,631 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:21:51,338 - INFO - Found 3 clothing items in c23297a4b5eed754ccaf876fd5421aa0.jpg
+2025-03-31 17:21:51,839 - INFO - Processing d924a41b4bc085db7480e169b76a5028.jpg...
+2025-03-31 17:21:51,992 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:21:56,095 - INFO - Found 3 clothing items in d924a41b4bc085db7480e169b76a5028.jpg
+2025-03-31 17:21:56,605 - INFO - Inserted 16 items into MongoDB
+2025-03-31 17:21:56,610 - INFO - Data saved to ootd_data.csv
+2025-03-31 17:21:56,611 - INFO - Pausing between batches...
+2025-03-31 17:21:58,616 - INFO - Processing batch 8 (5 images)...
+2025-03-31 17:21:58,617 - INFO - Processing efb47e51d031e71c84de5cf81a9eb905.jpg...
+2025-03-31 17:21:58,946 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:22:16,224 - INFO - Found 4 clothing items in efb47e51d031e71c84de5cf81a9eb905.jpg
+2025-03-31 17:22:16,725 - INFO - Processing dc81b79918355cca1a3a7da46bb68e7d.jpg...
+2025-03-31 17:22:17,226 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:22:19,662 - INFO - Found 4 clothing items in dc81b79918355cca1a3a7da46bb68e7d.jpg
+2025-03-31 17:22:20,168 - INFO - Processing 85eacecf978c69a9b79e3d764289cb07.jpg...
+2025-03-31 17:22:20,557 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:22:23,727 - INFO - Found 1 clothing items in 85eacecf978c69a9b79e3d764289cb07.jpg
+2025-03-31 17:22:24,233 - INFO - Processing 7aedb5a514b422b2805d79e604e85db3.jpg...
+2025-03-31 17:22:24,393 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:22:28,819 - INFO - Found 2 clothing items in 7aedb5a514b422b2805d79e604e85db3.jpg
+2025-03-31 17:22:29,324 - INFO - Processing 242814c3ac574191ea19e328be1721e1.png...
+2025-03-31 17:22:30,725 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:22:37,390 - INFO - Found 4 clothing items in 242814c3ac574191ea19e328be1721e1.png
+2025-03-31 17:22:37,896 - INFO - Inserted 15 items into MongoDB
+2025-03-31 17:22:37,901 - INFO - Data saved to ootd_data.csv
+2025-03-31 17:22:37,901 - INFO - Pausing between batches...
+2025-03-31 17:22:39,907 - INFO - Processing batch 9 (5 images)...
+2025-03-31 17:22:39,907 - INFO - Processing b2d8fb0697c9d5daca5518219a39cfb9.jpg...
+2025-03-31 17:22:40,109 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:22:51,145 - INFO - Found 3 clothing items in b2d8fb0697c9d5daca5518219a39cfb9.jpg
+2025-03-31 17:22:51,648 - INFO - Processing 38fa2da34d03bef45687abef184f2bab.jpg...
+2025-03-31 17:22:51,976 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:22:56,779 - INFO - Found 1 clothing items in 38fa2da34d03bef45687abef184f2bab.jpg
+2025-03-31 17:22:57,285 - INFO - Processing 427cee385f20d37057780975aa00228b.jpg...
+2025-03-31 17:22:57,712 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:23:03,863 - INFO - Found 6 clothing items in 427cee385f20d37057780975aa00228b.jpg
+2025-03-31 17:23:04,365 - INFO - Processing 5700646a5565f8cc32e99ab0690687d5.jpg...
+2025-03-31 17:23:04,629 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:23:06,846 - INFO - Found 3 clothing items in 5700646a5565f8cc32e99ab0690687d5.jpg
+2025-03-31 17:23:07,348 - INFO - Processing ad5a35bf6241487a1c3c5ff147ae631c.jpg...
+2025-03-31 17:23:07,743 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:23:34,732 - INFO - Found 1 clothing items in ad5a35bf6241487a1c3c5ff147ae631c.jpg
+2025-03-31 17:23:35,239 - INFO - Inserted 14 items into MongoDB
+2025-03-31 17:23:35,244 - INFO - Data saved to ootd_data.csv
+2025-03-31 17:23:35,244 - INFO - Pausing between batches...
+2025-03-31 17:23:37,249 - INFO - Processing batch 10 (5 images)...
+2025-03-31 17:23:37,250 - INFO - Processing 3acd0619fd2742932eb9bcc41c69d41e.jpg...
+2025-03-31 17:23:37,466 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:23:38,990 - INFO - Found 4 clothing items in 3acd0619fd2742932eb9bcc41c69d41e.jpg
+2025-03-31 17:23:39,492 - INFO - Processing 3bd0f0b78156f7e9649fe9f7321973f4.jpg...
+2025-03-31 17:23:39,629 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:23:44,869 - INFO - Found 4 clothing items in 3bd0f0b78156f7e9649fe9f7321973f4.jpg
+2025-03-31 17:23:45,375 - INFO - Processing 5580e6dfc03072934cc098f7adebfeda.jpg...
+2025-03-31 17:23:45,513 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:23:49,561 - INFO - Found 4 clothing items in 5580e6dfc03072934cc098f7adebfeda.jpg
+2025-03-31 17:23:50,066 - INFO - Processing 989ac13ab1509c61bbb88a6c7243d3ad.jpg...
+2025-03-31 17:23:50,368 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:24:03,826 - INFO - Found 4 clothing items in 989ac13ab1509c61bbb88a6c7243d3ad.jpg
+2025-03-31 17:24:04,329 - INFO - Processing 66e6172c4c840863d56c68aac7bee755.jpg...
+2025-03-31 17:24:04,836 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:24:08,356 - INFO - Found 3 clothing items in 66e6172c4c840863d56c68aac7bee755.jpg
+2025-03-31 17:24:08,866 - INFO - Inserted 19 items into MongoDB
+2025-03-31 17:24:08,870 - INFO - Data saved to ootd_data.csv
+2025-03-31 17:24:08,870 - INFO - Pausing between batches...
+2025-03-31 17:24:10,876 - INFO - Processing batch 11 (5 images)...
+2025-03-31 17:24:10,878 - INFO - Processing 5623fc0281c4273d6ef7ed26e05cadf1.jpg...
+2025-03-31 17:24:11,028 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:24:17,455 - INFO - Found 3 clothing items in 5623fc0281c4273d6ef7ed26e05cadf1.jpg
+2025-03-31 17:24:17,956 - INFO - Processing 4ddcbcf654b94f19e68756bc584feded.jpg...
+2025-03-31 17:24:18,173 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:24:22,757 - INFO - Found 2 clothing items in 4ddcbcf654b94f19e68756bc584feded.jpg
+2025-03-31 17:24:23,263 - INFO - Processing 41ebbe70b310bed44a34a4b0b8bdbd1f.jpg...
+2025-03-31 17:24:23,510 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:24:27,818 - INFO - Found 3 clothing items in 41ebbe70b310bed44a34a4b0b8bdbd1f.jpg
+2025-03-31 17:24:28,322 - INFO - Processing e9da4cafc848d489eca481a40609c8af.jpg...
+2025-03-31 17:24:28,797 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:24:32,021 - INFO - Found 1 clothing items in e9da4cafc848d489eca481a40609c8af.jpg
+2025-03-31 17:24:32,524 - INFO - Processing 4386f20d1ba91482a8eb9887df62895d.jpg...
+2025-03-31 17:24:32,826 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:24:35,506 - INFO - Found 4 clothing items in 4386f20d1ba91482a8eb9887df62895d.jpg
+2025-03-31 17:24:36,015 - INFO - Inserted 13 items into MongoDB
+2025-03-31 17:24:36,019 - INFO - Data saved to ootd_data.csv
+2025-03-31 17:24:36,019 - INFO - Pausing between batches...
+2025-03-31 17:24:38,025 - INFO - Processing batch 12 (5 images)...
+2025-03-31 17:24:38,026 - INFO - Processing 6e7fa40c81f74771a0c1bc29ccb066b4.jpg...
+2025-03-31 17:24:38,342 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:24:40,509 - INFO - Found 4 clothing items in 6e7fa40c81f74771a0c1bc29ccb066b4.jpg
+2025-03-31 17:24:41,010 - INFO - Processing 87cbc3703839437d90c73d10d21112d1.jpg...
+2025-03-31 17:24:41,213 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:24:44,221 - INFO - Found 4 clothing items in 87cbc3703839437d90c73d10d21112d1.jpg
+2025-03-31 17:24:44,726 - INFO - Processing 09f963c7a0420a52d718d990167df80a.jpg...
+2025-03-31 17:24:44,965 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:24:47,573 - INFO - Found 2 clothing items in 09f963c7a0420a52d718d990167df80a.jpg
+2025-03-31 17:24:48,075 - INFO - Processing 756ad4c5ba3fdaa615241c2ed9f06f05.jpg...
+2025-03-31 17:24:48,354 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:24:54,848 - INFO - Found 4 clothing items in 756ad4c5ba3fdaa615241c2ed9f06f05.jpg
+2025-03-31 17:24:55,353 - INFO - Processing 57c3dd5d2164aef870668376c1532b2e.jpg...
+2025-03-31 17:24:55,606 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:25:01,159 - INFO - Found 5 clothing items in 57c3dd5d2164aef870668376c1532b2e.jpg
+2025-03-31 17:25:01,666 - INFO - Inserted 19 items into MongoDB
+2025-03-31 17:25:01,672 - INFO - Data saved to ootd_data.csv
+2025-03-31 17:25:01,672 - INFO - Pausing between batches...
+2025-03-31 17:25:03,673 - INFO - Processing batch 13 (3 images)...
+2025-03-31 17:25:03,674 - INFO - Processing 00be180db8f0ebb6ccb686ec094924da.jpg...
+2025-03-31 17:25:03,893 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:25:09,043 - INFO - Found 3 clothing items in 00be180db8f0ebb6ccb686ec094924da.jpg
+2025-03-31 17:25:09,545 - INFO - Processing 6a63bfe4f508eb93db9026d68d89d8a9.jpg...
+2025-03-31 17:25:09,794 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:25:17,628 - INFO - Found 3 clothing items in 6a63bfe4f508eb93db9026d68d89d8a9.jpg
+2025-03-31 17:25:18,131 - INFO - Processing 0f3e722f2ce61e49c518b4b62ccb5d91.jpg...
+2025-03-31 17:25:18,341 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 17:25:22,107 - INFO - Found 3 clothing items in 0f3e722f2ce61e49c518b4b62ccb5d91.jpg
+2025-03-31 17:25:22,613 - INFO - Inserted 9 items into MongoDB
+2025-03-31 17:25:22,621 - INFO - Data saved to ootd_data.csv
+2025-03-31 17:25:22,621 - INFO - Processing complete. Total items extracted: 213
+2025-03-31 17:25:22,640 - INFO - Total items: 213
+2025-03-31 17:25:22,641 - INFO - Total images: 62
+2025-03-31 17:25:22,641 - INFO - Top clothing types:
+2025-03-31 17:25:22,641 - INFO -   crew neck t-shirt: 27
+2025-03-31 17:25:22,641 - INFO -   shorts: 5
+2025-03-31 17:25:22,641 - INFO -   jeans: 5
+2025-03-31 17:25:22,642 - INFO -   lace-up sneakers: 5
+2025-03-31 17:25:22,642 - INFO -   ankle socks: 4
+2025-03-31 17:25:22,642 - INFO -   tennis shoes: 4
+2025-03-31 17:25:22,642 - INFO -   button-up shirt: 4
+2025-03-31 17:25:22,642 - INFO -   dress pants: 3
+2025-03-31 17:25:22,642 - INFO -   socks: 3
+2025-03-31 17:25:22,642 - INFO -   Jeans: 3
+2025-03-31 21:17:26,825 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/97/f4/a1/97f4a14833e874383cadf62414534caa.jpg, alt: None, origin: https://www.pinterest.com/pin/5418462046396351/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/6d/0a/bf/6d0abfc4b8a8dee8c0124c7907ae9359.png, alt: None, origin: https://www.pinterest.com/pin/1900024838616037/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/89/2a/ab/892aab9d14fb7bb734f19d469cd6fe31.jpg, alt: None, origin: https://www.pinterest.com/pin/1055599907982683/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/be/d4/4f/bed44fabe642ec1cbeb9c06bd5f73648.jpg, alt: None, origin: https://www.pinterest.com/pin/26951297765771257/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/75/59/6c/75596c3bca43f9d2a3c3bf8cde57fa24.jpg, alt: None, origin: https://www.pinterest.com/pin/6262886976942319/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/1f/75/ec/1f75ec2e43007e38909e66b26b41735d.jpg, alt: None, origin: https://www.pinterest.com/pin/4574037117217100/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/c9/38/8c/c9388cdf2248947b1cf665c5a7ce6d90.jpg, alt: None, origin: https://www.pinterest.com/pin/1688918605925080/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/10/b3/78/10b378ed1af157b3b86a7c94470e9051.jpg, alt: None, origin: https://www.pinterest.com/pin/991636411710102369/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/58/41/32/58413283d003c2eb6d2c8594a2d7e63e.jpg, alt: None, origin: https://www.pinterest.com/pin/211174977910806/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/09/5e/8e/095e8e08596cad8c6bd90e9955926aac.jpg, alt: None, origin: https://www.pinterest.com/pin/68748589691/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/0e/44/8b/0e448b8d8ab8d03e54680e6f0506c3fa.webp, alt: None, origin: https://www.pinterest.com/pin/422281210509957/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/67/c4/95/67c49510fd82dd64614103d6d7878ad0.jpg, alt: None, origin: https://www.pinterest.com/pin/13792342603485578/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/a2/27/e1/a227e14c2a2d04b826f050b1d6e4a4b9.jpg, alt: None, origin: https://www.pinterest.com/pin/2111131071521807/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/ab/1c/a4/ab1ca487e29dcfff6faaa6f9d92df247.jpg, alt: None, origin: https://www.pinterest.com/pin/1196337403766264/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/a9/52/ca/a952cae3b16fc74fbe0c50ed5f889b3e.jpg, alt: None, origin: https://www.pinterest.com/pin/437764026300092233/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/9f/d1/ff/9fd1ff2149b23df21550f620536746eb.jpg, alt: None, origin: https://www.pinterest.com/pin/68117013108586581/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/6c/03/ce/6c03ce2dc09027ae621eee197c06a64d.jpg, alt: None, origin: https://www.pinterest.com/pin/4081455906640466/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/20/95/c1/2095c1d4d3699200394f079337ccb4fc.jpg, alt: None, origin: https://www.pinterest.com/pin/211174978098808/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/4c/47/b4/4c47b4017e432dcd53c690a5213d7b61.jpg, alt: None, origin: https://www.pinterest.com/pin/4855512094455957/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/d5/c1/c2/d5c1c21ba5915d4869bbd8dbdbdc75bd.jpg, alt: None, origin: https://www.pinterest.com/pin/42291683995011947/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/62/3e/f2/623ef25b5bd79154353ac08ac5c89086.jpg, alt: None, origin: https://www.pinterest.com/pin/1759287347738865/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/d5/40/18/d54018ac48e30e36510629c14f4d012a.jpg, alt: a man in a suit and tie looking at the camera, origin: https://www.pinterest.com/pin/10344274146414905/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/5e/a8/b8/5ea8b8a6114532658811c483bb61b8af.jpg, alt: None, origin: https://www.pinterest.com/pin/235453886764025502/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/3a/73/bd/3a73bdd5e09389841e6c2f6e585397c1.jpg, alt: None, origin: https://www.pinterest.com/pin/2674081024899995/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:17:26,826 - ERROR - Error encoding image PinterestImage(src: https://i.pinimg.com/originals/1c/b2/9f/1cb29f4baf7d910a636cd9773df281d1.jpg, alt: None, origin: https://www.pinterest.com/pin/12173861488676030/, fallback_urls: []): expected str, bytes or os.PathLike object, not PinterestImage
+2025-03-31 21:23:57,043 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 21:24:05,763 - INFO - Inserted 5 items into MongoDB
+2025-03-31 22:06:42,570 - INFO - MongoDB indexes created successfully
+2025-03-31 22:06:42,572 - INFO - Found 117 images to process
+2025-03-31 22:06:42,572 - INFO - Processing batch 1 (5 images)...
+2025-03-31 22:06:42,572 - INFO - Processing 17902b101e6b4b65425bedab59d52f0b.jpg...
+2025-03-31 22:06:43,390 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-03-31 22:06:57,299 - INFO - Found 4 clothing items in 17902b101e6b4b65425bedab59d52f0b.jpg
+2025-03-31 22:06:57,805 - INFO - Processing 3e00e993678a39bb81ff9b510d229e28.jpg...
+2025-03-31 22:06:58,029 - INFO - HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
